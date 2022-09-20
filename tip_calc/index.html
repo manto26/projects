@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg-[url('tip.jpg')] bg-cover bg-no-repeat h-screen w-full">
+        <div>
+            <header>
+                <h1 id="title" class="flex justify-center text-6xl text-center text-white font-bold py-3">Tip
+                    Calculator</h1>
+            </header>
+            <form class="flex flex-col justify-center items-center" action="javascript:void(calc())">
+                <input class="text-xl text-center text-black font-bold py-8 " id="bill" type="text"
+                    placeholder="Total Bill">
+                <br>
+                <input class="text-xl text-center text-black font-bold py-8 " id="split" type="text"
+                    placeholder="Number of Person">
+                <br>
+                <button class="bg-amber-700 rounded-full text-2xl text-white text-bold px-4 py-4"
+                    id="b1">Calculate</button>
+                </br>
+                </br>
+                <div class="bg-lime-700" id="results">
+                    <p class="text-xl text-white"><strong>Tip:&nbsp; <span id="tip"></span></strong></p>
+                    <p class="text-xl text-white"><strong>Total:&nbsp; <span id="total"></span></strong></p>
+                    <p class="text-xl text-white"><strong>Each person pay:&nbsp; <span id="splitTotal"></span></strong>
+                    </p>
+                </div>
+            </form>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>
