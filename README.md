@@ -1,3 +1,3 @@
 # projects
 
-Small JavaScript application 
+Small Weather App 
